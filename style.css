@@ -1,0 +1,68 @@
+body {
+    color: white;
+    background: white;
+    margin: 0px;
+   
+    font-family: "Days One", sans-serif;
+    font-size: 20px;
+    margin-bottom: 100px;
+       
+      
+      
+}
+
+header {
+    border-bottom: solid 2px cornflowerblue;
+    padding: 20px;
+    font-size: 32px;
+    color: cornflowerblue;
+
+}
+
+.chamada {
+    background: #2a2a2a;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+p {
+    font-size: 20px;
+}
+
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Puro {
+    color:#2a2a2a ;
+    
+
+}
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 5px solid cornflowerblue;
+ }
